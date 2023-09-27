@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="script.js" defer></script>
+    <title>Bastin King</title>
+  </head>
+  <body>
+    <div class="header">
+      <!-- <div class="dp">
+        <img src="https://bastinking.tech/20230527_224408.jpg" />
+      </div>
+      <div class="dp-text"><p>Bastin King</p></div> -->
+      <nav id="nav">
+        <a href="#intro">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#project">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+
+    <!-- profile pic code -->
+
+    <div id="intro">
+      <div id="card">
+        <h4 id="hi">HI, MY NAME IS</h4>
+        <h1 id="name">BASTIN KING</h1>
+        <h4 id="job">I’m a Junior Fullstack Developer</h4>
+        <a class= "cv" href="/cv.html" type="button" target="_blank">View Cv</a><br>
+        <div class="socials-img">
+          <a href="https://www.linkedin.com/in/bastin-frimpong-7a0153271/"
+            ><img src="/logos/linkedin.png" alt="linkedIn"
+          /></a>
+          <a href="https://github.com/bkfog"
+            ><img src="/logos/github-sign.png" alt="github"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-container">
+      <h2 id="about">ABOUT ME</h2>
+
+      <!-- <h2 class= "know-me">Get to know me</h2> -->
+
+      <!-- <h2 class="know-me-head">Get to know me</h2> -->
+      <img class="pic" src="/mypic/IMG_20200302_063622_403.jpg" />
+      <p class="know-me-para">
+        I am currently enrolled in a Digital Skills Bootcamp at JustIT Training,
+        aiming to improve my skills further and expand my understanding of
+        software languages whilst working on my portfolio to create some
+        personal projects. My degree lies in Media Production and Radio. I have
+        working knowledge with various software in Music Production and am able
+        to learn new technology quickly. I thrive in challenging environments
+        which allows me to problem solve, use initiative and evolve
+        professionally. I am tech savvy and enjoy staying up to date on the
+        latest advancements within the technology software industries. I am
+        seeking a role as a Junior Developer where my skills, experience and
+        zeal can be beneficial to an organization.
+      </p>
+
+      <!-- <div class ="skills">My Skills</div> -->
+      <!-- <h2 class="skills-head">My Skills</h2> -->
+
+      <div class="languages">
+        <h2>MY SKILLS</h2>
+        <div class="html-logo">
+          <img src="/logos/367627_html_html5_icon.png" alt="HTML" />
+          <p>HTML5</p>
+        </div>
+        <div class="css-logo">
+          <img
+            src="/logos/7422531_css3_css_file_development_icon.png"
+            alt="CSS"
+          />
+          <p>CSS</p>
+        </div>
+
+        <div class="javascript-logo">
+          <img
+            src="/logos/7422496_javascript_coding_doce_developers_programming_icon.png"
+            alt="JAVASCRIPT"
+          />
+          <p>JAVASCRIPT</p>
+        </div>
+
+        <div class="python-logo">
+          <img src="/logos/4691213_python_icon.png" alt="PYTHON" />
+          <p>PYTHON</p>
+        </div>
+
+        <div class="mysql-logo">
+          <img src="/logos/4691303_mysql_icon.png" alt="MYSQL" />
+          <p>MYSQL</p>
+        </div>
+
+        <div class="bootsrap-logo">
+          <img src="/logos/8666135_bootstrap_icon.png" alt="BOOTSRAP" />
+          <p>BOOTSRAP</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-grid">
+      <h2 id="project">PROJECTS</h2>
+
+      <div class="to-do-card">
+        <img
+          src="/mypic/to do app pic.png"
+          alt="Avatar"
+          style="width: 100%"
+        />
+
+        <div class="pcontainer">
+          <a
+            href="/To Do APP/"
+            target="_blank"
+            rel="noopener"
+            ><h4>TO DO LIST APP</h4>
+          </a>
+        </div>
+      </div>
+
+      <div class="song-app">
+        <!-- <h1>Songs App</h1> -->
+
+        <iframe
+          src="https://replit.com/@bkfog/GLA4W4C3?embed=true"
+          frameborder="0"
+          height="600px"
+          width="700px"
+        ></iframe>
+      </div>
+
+
+      <div class="rock-papper-scissors">
+        <p>ROCK PAPER SCISSORS</p>
+        <div class="rock-selections">
+          <button class="selection" data-selection="rock">✊🏿</button>
+          <button class="selection" data-selection="paper">✋🏿</button>
+          <button class="selection" data-selection="scissors">✌🏿</button>
+        </div>
+
+        <div class="rock-results">
+          <div>You
+            <span class="rock-result-score">0</span>
+          </div>
+          <div>Me
+            <span class="rock-result-score">0</span>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="result-selection.winner">✊🏿</div>
+        <div class="result-selection">✌🏿</div> -->
+
+      </div>
+
+    </div>
+
+    <div class="contact-grid">
+      <h2 id="contact">CONTACT ME</h2>
+
+      <p id="contactpara">
+        Feel free to Contact me by submitting the form below and I will get back
+        to you as soon as possible
+      </p>
+
+      <div class="contact-form">
+        <form action="https://formsubmit.io/send/<token or your email>">
+          <label for="fname">Name:</label><br />
+          <input
+            type="text"
+            id="fName"
+            name="name"
+            placeholder="Enter Your Name"
+          /><br />
+
+          <label for="femail">Email:</label><br />
+          <input
+            type="text"
+            id="fEmail"
+            name="email"
+            placeholder="Enter Your Email"
+          /><br />
+
+          <label for="fmessage">Message:</label><br />
+          <textarea
+            id="fmessage"
+            name="message"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea
+          ><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>
